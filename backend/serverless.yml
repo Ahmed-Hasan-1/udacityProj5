@@ -23,6 +23,7 @@ provider:
     INDEX_NAME: UserIdIndex
     S3_BUCKET: serverless-todo-attachments-jng-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
+    AUTH_0_SECRET: hj9B9SaPciKW1a7ttmhmaiAtZ6oEqJ729WzAEOL8xMembMtPBfC5O_oewy3TVIJf
 
 custom:
   dynamodb:
